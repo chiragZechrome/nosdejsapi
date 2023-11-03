@@ -2,7 +2,6 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 const connectionString = process.env.DB_URL;
-// const connectionString = "mongodb+srv://chiragzechrom:mdEwXoF8OzKXCXy1@mongousers.w4n9z1q.mongodb.net/College";
 
 
 console.log('DB_URL:', connectionString);
